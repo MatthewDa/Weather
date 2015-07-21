@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel= "stylesheet" type="text/css" href="main.css"></head>
+<title>Harry Potter Weather</title>
+<link rel= "stylesheet" type="text/css" href="./main.css">
+</head>
 <body background= {{bg}}>
+<center><form action= "">
+<input type= "text" placeholder="Choose a city,country." name="city"></input>
+<input type="submit" value="Submit"></input>
+</form></center>
 <h1>It is {{tempF}} degrees Fahrenheit.</h1>
 <h3>Looks like you are in {{category}}.</h3>
 <p>{{dsptn}}</p>
