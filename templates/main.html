@@ -4,6 +4,7 @@
 <title>Harry Potter Weather</title>
 <link rel= "stylesheet" type="text/css" href="./main.css">
 </head>
+{% block content %}
 <body background= {{bg}}>
 <center><form action= "weather_flask.py">
 <input type= "text" placeholder="Choose a city,country." name="city"></input>
@@ -12,5 +13,6 @@
 <h1>It is {{tempF}} degrees Fahrenheit.</h1>
 <h3>Looks like you are in {{category}}.</h3>
 <p>{{dsptn}}</p>
+{% endblock %}
 </body>
 </html>
